@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\empao\\Desktop\\DominoDO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\dominodo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\dominodo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\pages\\scorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\pages\\scorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\pages\\scorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\pages\\scorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\viewmodel\\scoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\viewmodel\\scoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\model\\scoretemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\model\\scoretemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\resources\\languages\\appresources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\resources\\languages\\appresources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\dominodo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\dominodo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|c:\\users\\empao\\desktop\\dominodo\\dominodo\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2EE882-1FD9-4196-8495-652D6B672304}|DominoDO\\DominoDO.csproj|solutionrelative:dominodo\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Resources\\NewFolder\\AppResources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DominoDO\\Resources\\NewFolder\\AppResources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\.gitignore",
+              "RelativeDocumentMoniker": "DominoDO\\.gitignore",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\.gitignore",
+              "RelativeToolTip": "DominoDO\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-19T02:30:43.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScoreViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\ViewModel\\ScoreViewModel.cs",
+              "RelativeDocumentMoniker": "DominoDO\\ViewModel\\ScoreViewModel.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\ViewModel\\ScoreViewModel.cs",
+              "RelativeToolTip": "DominoDO\\ViewModel\\ScoreViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:06:06.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScorePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\ScorePage.xaml.cs",
+              "RelativeDocumentMoniker": "DominoDO\\Pages\\ScorePage.xaml.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\ScorePage.xaml.cs",
+              "RelativeToolTip": "DominoDO\\Pages\\ScorePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T22:31:04.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScorePage.xaml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\ScorePage.xaml",
+              "RelativeDocumentMoniker": "DominoDO\\Pages\\ScorePage.xaml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\ScorePage.xaml",
+              "RelativeToolTip": "DominoDO\\Pages\\ScorePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T21:53:11.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "DominoDO\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "DominoDO\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T03:37:08.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "DominoDO\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "DominoDO\\Pages\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-08T03:36:58.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DominoDO.csproj",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\DominoDO.csproj",
+              "RelativeDocumentMoniker": "DominoDO\\DominoDO.csproj",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\DominoDO.csproj",
+              "RelativeToolTip": "DominoDO\\DominoDO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-08T01:08:43.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScoreTemp.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Model\\ScoreTemp.cs",
+              "RelativeDocumentMoniker": "DominoDO\\Model\\ScoreTemp.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Model\\ScoreTemp.cs",
+              "RelativeToolTip": "DominoDO\\Model\\ScoreTemp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:00:58.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "DominoDO\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MainPage.xaml.cs",
+              "RelativeToolTip": "DominoDO\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T00:13:00.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppResources.resx",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Resources\\Languages\\AppResources.resx",
+              "RelativeDocumentMoniker": "DominoDO\\Resources\\Languages\\AppResources.resx",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Resources\\Languages\\AppResources.resx",
+              "RelativeToolTip": "DominoDO\\Resources\\Languages\\AppResources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-02-11T03:02:07.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DominoDO\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\App.xaml.cs",
+              "RelativeToolTip": "DominoDO\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T00:11:53.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAwNUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-08T03:16:13.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppResources.resx",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Resources\\NewFolder\\AppResources.resx",
+              "RelativeDocumentMoniker": "DominoDO\\Resources\\NewFolder\\AppResources.resx",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Resources\\NewFolder\\AppResources.resx",
+              "RelativeToolTip": "DominoDO\\Resources\\NewFolder\\AppResources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-02-11T03:00:08.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\AppShell.xaml",
+              "RelativeDocumentMoniker": "DominoDO\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\AppShell.xaml",
+              "RelativeToolTip": "DominoDO\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-08T00:12:05.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DominoDO",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\DominoDO.csproj",
+              "RelativeDocumentMoniker": "DominoDO\\DominoDO.csproj",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\DominoDO.csproj",
+              "RelativeToolTip": "DominoDO\\DominoDO.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-08T02:26:45.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\App.xaml",
+              "RelativeDocumentMoniker": "DominoDO\\App.xaml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\App.xaml",
+              "RelativeToolTip": "DominoDO\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-08T00:54:20.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DominoDO\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MainPage.xaml",
+              "RelativeToolTip": "DominoDO\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-08T00:12:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "DominoDO\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "DominoDO\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-02-08T03:16:05.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DominoDO\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\MauiProgram.cs",
+              "RelativeToolTip": "DominoDO\\MauiProgram.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:33:31.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GlobalXmlns.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\GlobalXmlns.cs",
+              "RelativeDocumentMoniker": "DominoDO\\GlobalXmlns.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\GlobalXmlns.cs",
+              "RelativeToolTip": "DominoDO\\GlobalXmlns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:37:52.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "DominoDO\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\empao\\Desktop\\DominoDO\\DominoDO\\AppShell.xaml.cs",
+              "RelativeToolTip": "DominoDO\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T00:12:03.246Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
