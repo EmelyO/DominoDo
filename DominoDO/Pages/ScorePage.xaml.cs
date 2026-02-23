@@ -5,9 +5,16 @@ namespace DominoDO.Pages;
 
 public partial class ScorePage : ContentPage
 {
-	public ScorePage(Page page, Action<ScoreTemp> onScore)
+	public ScorePage(Action<ScoreTemp> onScore)
 	{
 		InitializeComponent();
-		BindingContext = new ScoreViewModel(page, onScore);
+
+        var vm = new ScoreViewModel(result =>
+        {
+            onScore(result);
+            Navigation.PopModalAsync();
+        });
+
+        BindingContext = new ScoreViewModel(onScore);
     }
 }

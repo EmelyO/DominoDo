@@ -5,6 +5,6 @@
              Title="HomePage"
              BackgroundColor="White">
     <StackLayout>
-        <Button Command="ChangeNameOrAddScore" BackgroundColor="AliceBlue"></Button>
+        <Button Command="ChangeNameOrAddScore" BackgroundColor="Blue"></Button>
     </StackLayout>
 </ContentPage>
