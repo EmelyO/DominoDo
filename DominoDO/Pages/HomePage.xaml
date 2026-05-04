@@ -5,6 +5,16 @@
              Title="HomePage"
              BackgroundColor="White">
     <StackLayout>
-        <Button Command="ChangeNameOrAddScore" BackgroundColor="Blue"></Button>
+        <Grid ColumnDefinitions="*, *" 
+      RowDefinitions="Auto, Auto" 
+      Padding="10">
+
+            <Button Grid.Row="0" Grid.Column="0" Text="Team 1" BackgroundColor="#30B7FF" Margin="5" />
+            <Button Grid.Row="0" Grid.Column="1" Text="Team 2" BackgroundColor="#FF9933" Margin="5" />
+
+            <Entry Grid.Row="1" Grid.Column="0" Placeholder="Entry 1" Margin="5" Keyboard="Numeric"/>
+            <Entry Grid.Row="1" Grid.Column="1" Placeholder="Entry 2" Margin="5" Keyboard="Numeric"/>
+
+        </Grid>
     </StackLayout>
 </ContentPage>
