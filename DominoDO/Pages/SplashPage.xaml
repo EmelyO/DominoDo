@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DominoDO.Pages.SplashPage"
+             NavigationPage.HasNavigationBar="False">
+    <AbsoluteLayout>
+
+        <Grid AbsoluteLayout.LayoutFlags="All"
+              AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#0D2E6E" Offset="0.0"/>
+                    <GradientStop Color="#1B5EA6" Offset="0.45"/>
+                    <GradientStop Color="#D62B2B" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+
+        <Ellipse Fill="#08FFFFFF"
+                 WidthRequest="400" HeightRequest="400"
+                 AbsoluteLayout.LayoutFlags="None"
+                 AbsoluteLayout.LayoutBounds="-100,-120,400,400"/>
+
+        <Ellipse Fill="#0DFFFFFF"
+                 WidthRequest="280" HeightRequest="280"
+                 AbsoluteLayout.LayoutFlags="XProportional"
+                 AbsoluteLayout.LayoutBounds="-0.15,1,280,280"/>
+
+        <VerticalStackLayout
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Spacing="0">
+
+            <Grid ColumnDefinitions="Auto,Auto,Auto"
+                  ColumnSpacing="0"
+                  HorizontalOptions="Center"
+                  Margin="0,0,0,-10">
+
+                <Border Grid.Column="0"
+                        BackgroundColor="White"
+                        WidthRequest="42" HeightRequest="80"
+                        StrokeShape="RoundRectangle 10"
+                        Stroke="#14000000"
+                        StrokeThickness="1.5"
+                        Margin="0,0,8,0"
+                        Rotation="-8"
+                        VerticalOptions="Center">
+                    <Grid RowDefinitions="1*,1*" Padding="5">
+
+                        <Border Grid.Row="0"
+                                BackgroundColor="#1A1A2E"
+                                WidthRequest="6" HeightRequest="6"
+                                StrokeShape="Ellipse"
+                                StrokeThickness="0"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+
+                        <BoxView Grid.Row="0"
+                                 Color="#CCCCCC" HeightRequest="1"
+                                 VerticalOptions="End"/>
+
+                        <Grid Grid.Row="1"
+                              ColumnDefinitions="1*,1*,1*"
+                              RowDefinitions="1*,1*,1*"
+                              HorizontalOptions="Center"
+                              VerticalOptions="Center"
+                              WidthRequest="28" HeightRequest="28">
+                            <Border Grid.Row="0" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="0" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="1" Grid.Column="1" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <HorizontalStackLayout Grid.Column="1"
+                                       Spacing="-6"
+                                       VerticalOptions="Center">
+                    <Label Text="D"
+                           FontFamily="MontserratAlternates-ExtraBold"
+                           FontSize="140"
+                           FontAttributes="Bold"
+                           TextColor="#D62B2B"
+                           CharacterSpacing="-2"/>
+                    <Label Text="O"
+                           FontFamily="MontserratAlternates-ExtraBold"
+                           FontSize="140"
+                           FontAttributes="Bold"
+                           TextColor="#D62B2B"
+                           CharacterSpacing="-2"/>
+                </HorizontalStackLayout>
+
+                <Border Grid.Column="2"
+                        BackgroundColor="White"
+                        WidthRequest="42" HeightRequest="80"
+                        StrokeShape="RoundRectangle 10"
+                        Stroke="#14000000"
+                        StrokeThickness="1.5"
+                        Margin="8,0,0,0"
+                        Rotation="12"
+                        VerticalOptions="Center">
+                    <Grid RowDefinitions="1*,1*" Padding="5">
+
+                        <Grid Grid.Row="0"
+                              ColumnDefinitions="1*,1*,1*"
+                              RowDefinitions="1*,1*,1*"
+                              HorizontalOptions="Center"
+                              VerticalOptions="Center"
+                              WidthRequest="28" HeightRequest="28">
+                            <Border Grid.Row="0" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="0" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <BoxView Grid.Row="0"
+                                 Color="#CCCCCC" HeightRequest="1"
+                                 VerticalOptions="End"/>
+
+                        <Grid Grid.Row="1"
+                              ColumnDefinitions="1*,1*,1*"
+                              RowDefinitions="1*,1*,1*"
+                              HorizontalOptions="Center"
+                              VerticalOptions="Center"
+                              WidthRequest="28" HeightRequest="28">
+                            <Border Grid.Row="0" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="0" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="0" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Border Grid.Row="2" Grid.Column="2" BackgroundColor="#1A1A2E" WidthRequest="6" HeightRequest="6" StrokeShape="Ellipse" StrokeThickness="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+            </Grid>
+
+            <VerticalStackLayout HorizontalOptions="Center"
+                                 Spacing="4"
+                                 Margin="0,16,0,0">
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="0">
+                    <Label Text="Domino"
+                           FontFamily="MontserratAlternates-ExtraBold"
+                           FontSize="38"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           CharacterSpacing="-0.5"/>
+                    <Label Text="Do"
+                           FontFamily="MontserratAlternates-ExtraBold"
+                           FontSize="38"
+                           FontAttributes="Bold"
+                           TextColor="#F04040"
+                           CharacterSpacing="-0.5"/>
+                </HorizontalStackLayout>
+
+                <Label Text="LLEVA EL MARCADOR"
+                       HorizontalOptions="Center"
+                       FontSize="11"
+                       FontAttributes="Bold"
+                       TextColor="#A6FFFFFF"
+                       CharacterSpacing="2"/>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </AbsoluteLayout>
+</ContentPage>

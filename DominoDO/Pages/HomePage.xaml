@@ -2,19 +2,306 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DominoDO.Pages.HomePage"
-             Title="HomePage"
-             BackgroundColor="White">
-    <StackLayout>
-        <Grid ColumnDefinitions="*, *" 
-      RowDefinitions="Auto, Auto" 
-      Padding="10">
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#F4F6FA">
 
-            <Button Grid.Row="0" Grid.Column="0" Text="Team 1" BackgroundColor="#30B7FF" Margin="5" />
-            <Button Grid.Row="0" Grid.Column="1" Text="Team 2" BackgroundColor="#FF9933" Margin="5" />
+    <Grid RowDefinitions="Auto,*,Auto">
 
-            <Entry Grid.Row="1" Grid.Column="0" Placeholder="Entry 1" Margin="5" Keyboard="Numeric"/>
-            <Entry Grid.Row="1" Grid.Column="1" Placeholder="Entry 2" Margin="5" Keyboard="Numeric"/>
+   
+        <Grid Grid.Row="0">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#1B5EA6" Offset="0.0"/>
+                    <GradientStop Color="#2563EB" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
 
+            <VerticalStackLayout Padding="24,48,24,28" Spacing="20">
+
+          
+                <Grid ColumnDefinitions="*,Auto">
+                    <HorizontalStackLayout Grid.Column="0" Spacing="0" VerticalOptions="Center">
+                        <Label Text="Domino"
+                               FontFamily="MontserratAlternates-ExtraBold"
+                               FontSize="22" FontAttributes="Bold"
+                               TextColor="White" CharacterSpacing="-0.5"/>
+                        <Label Text="Do"
+                               FontFamily="MontserratAlternates-ExtraBold"
+                               FontSize="22" FontAttributes="Bold"
+                               TextColor="#FF7070" CharacterSpacing="-0.5"/>
+                    </HorizontalStackLayout>
+                </Grid>
+
+         
+                <Grid ColumnDefinitions="1*,1*,1*" ColumnSpacing="12">
+
+                    <Border Grid.Column="0" BackgroundColor="#26FFFFFF"
+                            StrokeShape="RoundRectangle 16"
+                            Stroke="#33FFFFFF" StrokeThickness="1"
+                            Padding="12">
+                        <VerticalStackLayout Spacing="3" HorizontalOptions="Center">
+                            <Label Text="24" FontSize="22" FontAttributes="Bold"
+                                   TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="Partidas" FontSize="10" FontAttributes="Bold"
+                                   TextColor="#A6FFFFFF" HorizontalOptions="Center"
+                                   CharacterSpacing="0.5"/>
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Border Grid.Column="1" BackgroundColor="#26FFFFFF"
+                            StrokeShape="RoundRectangle 16"
+                            Stroke="#33FFFFFF" StrokeThickness="1"
+                            Padding="12">
+                        <VerticalStackLayout Spacing="3" HorizontalOptions="Center">
+                            <Label Text="15" FontSize="22" FontAttributes="Bold"
+                                   TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="Victorias" FontSize="10" FontAttributes="Bold"
+                                   TextColor="#A6FFFFFF" HorizontalOptions="Center"
+                                   CharacterSpacing="0.5"/>
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Border Grid.Column="2" BackgroundColor="#26FFFFFF"
+                            StrokeShape="RoundRectangle 16"
+                            Stroke="#33FFFFFF" StrokeThickness="1"
+                            Padding="12">
+                        <VerticalStackLayout Spacing="3" HorizontalOptions="Center">
+                            <Label Text="63%" FontSize="22" FontAttributes="Bold"
+                                   TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="Win rate" FontSize="10" FontAttributes="Bold"
+                                   TextColor="#A6FFFFFF" HorizontalOptions="Center"
+                                   CharacterSpacing="0.5"/>
+                        </VerticalStackLayout>
+                    </Border>
+
+                </Grid>
+            </VerticalStackLayout>
         </Grid>
-    </StackLayout>
+
+  
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="20,24" Spacing="20">
+
+             
+                <Border BackgroundColor="#D62B2B"
+                        StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0"
+                        Padding="20,20,24,20">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#D62B2B" Offset="0.0"/>
+                            <GradientStop Color="#F04040" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Border.Shadow>
+                        <Shadow Brush="#59D62B2B" Offset="0,8" Radius="24" Opacity="0.35"/>
+                    </Border.Shadow>
+                    <Grid ColumnDefinitions="Auto,*,Auto">
+                        <Border Grid.Column="0"
+                                BackgroundColor="#33FFFFFF"
+                                WidthRequest="52" HeightRequest="52"
+                                StrokeShape="RoundRectangle 16"
+                                StrokeThickness="0">
+                            <Image Source="domino.png" HorizontalOptions="Center" 
+                                   VerticalOptions="Center" WidthRequest="26">
+                            </Image>
+                        </Border>
+                        <VerticalStackLayout Grid.Column="1" Spacing="2"
+                                             Margin="16,0" VerticalOptions="Center">
+                            <Label Text="Nueva Partida"
+                                   FontSize="17" FontAttributes="Bold"
+                                   TextColor="White"/>
+                            <Label Text="2, 3 o 4 jugadores"
+                                   FontSize="12" TextColor="#B3FFFFFF"/>
+                        </VerticalStackLayout>
+                        <Label Grid.Column="2" Text="›"
+                               FontSize="24" TextColor="#CCFFFFFF"
+                               VerticalOptions="Center"/>
+                    </Grid>
+                </Border>
+
+            
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="ACCESO RÁPIDO"
+                           FontSize="13" FontAttributes="Bold"
+                           TextColor="#8A9BB5" CharacterSpacing="1.5"/>
+
+                    <Grid ColumnDefinitions="1*,1*" RowDefinitions="Auto,Auto"
+                          ColumnSpacing="12" RowSpacing="12">
+
+                        <Border Grid.Row="0" Grid.Column="0"
+                                BackgroundColor="White"
+                                StrokeShape="RoundRectangle 16"
+                                StrokeThickness="0" Padding="16">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,2" Radius="8" Opacity="0.06"/>
+                            </Border.Shadow>
+                            <VerticalStackLayout Spacing="4">
+                                <Image Source="history.png" WidthRequest="26" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                                <Label Text="Historial" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                                <Label Text="24 partidas" FontSize="11" TextColor="#8A9BB5"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <Border Grid.Row="0" Grid.Column="1"
+                                BackgroundColor="White"
+                                StrokeShape="RoundRectangle 16"
+                                StrokeThickness="0" Padding="16">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,2" Radius="8" Opacity="0.06"/>
+                            </Border.Shadow>
+                            <VerticalStackLayout Spacing="4">
+                                <Image Source="diagram.png" WidthRequest="26" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                                <Label Text="Estadísticas" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                                <Label Text="Ver ranking" FontSize="11" TextColor="#8A9BB5"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <Border Grid.Row="1" Grid.Column="0"
+                                BackgroundColor="White"
+                                StrokeShape="RoundRectangle 16"
+                                StrokeThickness="0" Padding="16">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,2" Radius="8" Opacity="0.06"/>
+                            </Border.Shadow>
+                            <VerticalStackLayout Spacing="4">
+                                <Image Source="team.png" WidthRequest="26" VerticalOptions="Center" HorizontalOptions="Start"></Image>
+                                <Label Text="Jugadores" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                                <Label Text="6 registrados" FontSize="11" TextColor="#8A9BB5"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <Border Grid.Row="1" Grid.Column="1"
+                                BackgroundColor="White"
+                                StrokeShape="RoundRectangle 16"
+                                StrokeThickness="0" Padding="16">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,2" Radius="8" Opacity="0.06"/>
+                            </Border.Shadow>
+                            <VerticalStackLayout Spacing="4">
+                                <Image Source="settings.png" WidthRequest="26" HeightRequest="26" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                                <Label Text="Ajustes" FontSize="14" FontAttributes="Bold" TextColor="#1A1A2E"/>
+                                <Label Text="Preferencias" FontSize="11" TextColor="#8A9BB5"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                    </Grid>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="ÚLTIMA PARTIDA"
+                           FontSize="13" FontAttributes="Bold"
+                           TextColor="#8A9BB5" CharacterSpacing="1.5"/>
+
+                    <Border BackgroundColor="White"
+                            StrokeShape="RoundRectangle 16"
+                            StrokeThickness="0" Padding="16">
+                        <Border.Shadow>
+                            <Shadow Brush="Black" Offset="0,2" Radius="8" Opacity="0.06"/>
+                        </Border.Shadow>
+                        <VerticalStackLayout Spacing="12">
+
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Grid.Column="0"
+                                       Text="Hoy, 3:45 PM · 5 rondas"
+                                       FontSize="12" TextColor="#8A9BB5"/>
+                                <Border Grid.Column="1"
+                                        BackgroundColor="#E6F9F0"
+                                        StrokeShape="RoundRectangle 8"
+                                        StrokeThickness="0" Padding="8,4">
+                                    <Label Text="TERMINADA"
+                                           FontSize="10" FontAttributes="Bold"
+                                           TextColor="#22C55E" CharacterSpacing="0.5"/>
+                                </Border>
+                            </Grid>
+
+                            <HorizontalStackLayout Spacing="8">
+
+                                <Border BackgroundColor="#EEF3FB"
+                                        StrokeShape="RoundRectangle 12"
+                                        Stroke="#2563EB" StrokeThickness="1.5"
+                                        Padding="12,8">
+                                    <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                                        <Label Text="Emely" FontSize="12" FontAttributes="Bold" TextColor="#1A1A2E" HorizontalOptions="Center"/>
+                                        <Label Text="200" FontSize="16" FontAttributes="Bold" TextColor="#2563EB" HorizontalOptions="Center"/>
+                                    </VerticalStackLayout>
+                                </Border>
+
+                                <Border BackgroundColor="#F8F9FB"
+                                        StrokeShape="RoundRectangle 12"
+                                        StrokeThickness="0" Padding="12,8">
+                                    <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                                        <Label Text="Juan" FontSize="12" FontAttributes="Bold" TextColor="#1A1A2E" HorizontalOptions="Center"/>
+                                        <Label Text="145" FontSize="16" FontAttributes="Bold" TextColor="#8A9BB5" HorizontalOptions="Center"/>
+                                        <Label Text=" " FontSize="14" HorizontalOptions="Center"/>
+                                    </VerticalStackLayout>
+                                </Border>
+
+                                <Border BackgroundColor="#F8F9FB"
+                                        StrokeShape="RoundRectangle 12"
+                                        StrokeThickness="0" Padding="12,8">
+                                    <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                                        <Label Text="Pedro" FontSize="12" FontAttributes="Bold" TextColor="#1A1A2E" HorizontalOptions="Center"/>
+                                        <Label Text="98" FontSize="16" FontAttributes="Bold" TextColor="#8A9BB5" HorizontalOptions="Center"/>
+                                        <Label Text=" " FontSize="14" HorizontalOptions="Center"/>
+                                    </VerticalStackLayout>
+                                </Border>
+
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Border Grid.Row="2"
+                BackgroundColor="White"
+                StrokeThickness="0"
+                Stroke="#E8ECF2"
+                HeightRequest="80">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,-2" Radius="8" Opacity="0.05"/>
+            </Border.Shadow>
+            <Grid ColumnDefinitions="1*,1*,1*,1*" Padding="8,0">
+
+                <Border Grid.Column="0" BackgroundColor="#EEF3FB"
+                        StrokeShape="RoundRectangle 14" StrokeThickness="0"
+                        Padding="16,8">
+                    <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                        <Image Source="home.png" WidthRequest="26"></Image>
+                        <Label Text="Inicio" FontSize="10" FontAttributes="Bold"
+                               TextColor="#2563EB" HorizontalOptions="Center"
+                               CharacterSpacing="0.5"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <VerticalStackLayout Grid.Column="1" Spacing="4"
+                                     HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="history.png" WidthRequest="26"></Image>
+                    <Label Text="Historial" FontSize="10" FontAttributes="Bold"
+                           TextColor="#8A9BB5" HorizontalOptions="Center"
+                           CharacterSpacing="0.5"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="2" Spacing="4"
+                                     HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="diagram.png" WidthRequest="26"></Image>
+                    <Label Text="Estadísticas" FontSize="10" FontAttributes="Bold"
+                           TextColor="#8A9BB5" HorizontalOptions="Center"
+                           CharacterSpacing="0.5"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="3" Spacing="4"
+                                     HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="team.png" WidthRequest="26"></Image>
+                    <Label Text="Jugadores" FontSize="10" FontAttributes="Bold"
+                           TextColor="#8A9BB5" HorizontalOptions="Center"
+                           CharacterSpacing="0.5"/>
+                </VerticalStackLayout>
+
+            </Grid>
+        </Border>
+
+    </Grid>
 </ContentPage>

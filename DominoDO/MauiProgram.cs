@@ -9,14 +9,13 @@ namespace DominoDO
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
-
+               .ConfigureFonts(fonts =>
+               {
+                   fonts.AddFont("MontserratAlternates-ExtraBold.ttf", "MontserratAlternates-ExtraBold");
+                   fonts.AddFont("MontserratAlternates-Regular.ttf", "Montserrat-Regular");
+               });
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
